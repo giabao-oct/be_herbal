@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'APIHerbal.wsgi.application'
 #    }
 #}
 
-  DATABASES = {
+DATABASES = {
        "default": {
           "ENGINE": "django.db.backends.mysql",
           "NAME": "db_herbal",
@@ -107,8 +107,8 @@ WSGI_APPLICATION = 'APIHerbal.wsgi.application'
           "PASSWORD": "AVNS_ZdsZPPyiMA65jWniWIa",
           "HOST": "herbalsql-octopus-0124.d.aivencloud.com",
           'PORT': '16916'
-      }
-  }
+   }
+}
 
 
 # Password validation

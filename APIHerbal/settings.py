@@ -158,10 +158,7 @@ ALLOWED_HOSTS = ['*']
 CORS_ALLOWED_ORIGINS = [
     # "http://localhost:3000",
     # BASE_URL,
-    "https://herbal-three.vercel.app",
-    "https://herbal-git-main-octs-projects.vercel.app",
-    "https://herbal-hzt4hpcx1-octs-projects.vercel.app",
-
+    "https://herbal-three.vercel.app"
 ]
 CORS_ALLOW_CREDENTIALS = True
 

@@ -89,26 +89,26 @@ WSGI_APPLICATION = 'APIHerbal.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-     "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "db_herbal",
-        "USER": "root",
-        "PASSWORD": "",
-        "HOST": "localhost",
-    }
-}
+#DATABASES = {
+#     "default": {
+#        "ENGINE": "django.db.backends.mysql",
+#        "NAME": "db_herbal",
+#        "USER": "root",
+#       "PASSWORD": "",
+#        "HOST": "localhost",
+#    }
+#}
 
-# DATABASES = {
-#      "default": {
-#         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "if0_35601654_db_herbal",
-#         "USER": "if0_35601654",
-#         "PASSWORD": "dpqOkI1W9FxpZa",
-#         "HOST": "sql304.infinityfree.com",
-#         'PORT': '3306'
-#     }
-# }
+  DATABASES = {
+       "default": {
+          "ENGINE": "django.db.backends.mysql",
+          "NAME": "db_herbal",
+          "USER": "avnadmin",
+          "PASSWORD": "AVNS_ZdsZPPyiMA65jWniWIa",
+          "HOST": "herbalsql-octopus-0124.d.aivencloud.com",
+          'PORT': '16916'
+      }
+  }
 
 
 # Password validation

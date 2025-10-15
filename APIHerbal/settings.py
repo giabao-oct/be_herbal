@@ -150,14 +150,17 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 # settings.py
-BASE_URL = "http://localhost:3000"
+# BASE_URL = "http://localhost:3000"
 # BASE_URL = "http://192.168.1.5:3000"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ALLOWED_HOSTS = ['*'] 
 CORS_ALLOWED_ORIGINS = [
     # "http://localhost:3000",
-    BASE_URL  
+    # BASE_URL,
+    "https://herbal-three.vercel.app",
+    "https://herbal-git-main-octs-projects.vercel.app",
+    "https://herbal-hzt4hpcx1-octs-projects.vercel.app",
 
 ]
 CORS_ALLOW_CREDENTIALS = True
